@@ -1,0 +1,132 @@
+
+.birth-notification {
+    width: 500px;
+    height: 450px;
+    background: #d4f3db; /* Light green card background */
+    border: 4px solid rgba(171, 236, 80, 0.356); /* Blue border */
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    page-break-after: always;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 180px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.header-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(24, 146, 223); /* Blue color */
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.form {
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.form-line {
+    border-bottom: 2px solid #000;
+    margin: 5px 0;
+    height: 1px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 5px;
+    text-align: right;
+    font-size: 14px;
+    color: rgba(52, 133, 218, 0.76);
+}
+
+.no {
+    margin-left: 250px;
+}
+
+.invoice {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #eaffea;
+    border: 2px solid #0a730a;
+    border-radius: 10px;
+    position: relative;
+    page-break-before: always;
+}
+
+.invoice-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.section .left, .section .right {
+    width: 48%;
+}
+
+.section span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1px solid #0a730a;
+    margin: 20px 0;
+}
+
+.print-btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #0a730a;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-btn:hover {
+    background: #075507;
+}
+@media print {
+    .print-btn{
+        display: none; 
+    }
+}
+
+
